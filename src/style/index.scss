@@ -98,7 +98,22 @@ p {
     margin: 2rem auto;
     border-bottom: 1px solid $primary;
 }
-
+.social{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    color:white;
+    text-align: right;
+    padding: 1em;
+    margin: 0 auto;
+    .social-link{
+        a {
+        text-decoration: none;
+        color:white;
+        }
+        padding: 1em;
+    }
+}
 .header {
     background-repeat: no-repeat;
     background-position: center center;
