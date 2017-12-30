@@ -21,8 +21,6 @@ export default class Home extends Component {
 			<div itemscope itemprop="Person" itemtype="https://schema.org/Person">
 				{profile.header && <Header {...profile.header} />}
 				{profile.profile && <Profile {...profile.profile} />}
-				{profile.experience && <Experience {...profile.experience} />}
-				{profile.skills && <Skills {...profile.skills} />}
 				{profile.contact && <Footer {...profile.contact} />}
 			</div>
 		);

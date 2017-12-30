@@ -1,147 +1,187 @@
 {
-    "header": {
-        "title": "Shaffiullah Khan",
-        "subtitle": "A full stack JavaScript Developer",
-        "background_color": "#424242",
-        "background_image": "shaffidev.jpg",
-        "background_images": [{
-            "width": 2560,
-            "filename": "shaffidev-xlarge.jpg"
-        }, {
-            "width": 1920,
-            "filename": "shaffidev.jpg"
-        }, {
-            "width": 1600,
-            "filename": "shaffidev-large.jpg"
-        }, {
-            "width": 1280,
-            "filename": "shaffidev-medium.jpg"
-        }, {
-            "width": 960,
-            "filename": "shaffidev-small.jpg"
-        }, {
-            "width": 480,
-            "filename": "shaffidev-xsmall.jpg"
-        }]
+  "header": {
+    "title": "Shaffiullah Khan",
+    "subtitle": "A full stack JavaScript Developer",
+    "background_color": "#424242",
+    "background_image": "shaffidev.jpg",
+    "background_images": [
+      {
+        "width": 2560,
+        "filename": "shaffi11-xlarge.jpg"
+      },
+      {
+        "width": 1920,
+        "filename": "shaffi11.jpg"
+      },
+      {
+        "width": 1600,
+        "filename": "shaffi11-large.jpg"
+      },
+      {
+        "width": 1280,
+        "filename": "shaffi11-medium.jpg"
+      },
+      {
+        "width": 960,
+        "filename": "shaffi11-small.jpg"
+      },
+      {
+        "width": 480,
+        "filename": "shaffidev-xsmall.jpg"
+      }
+    ]
+  },
+  "profile": {
+    "title": "Profile",
+    "background_color": "#FFF",
+    "about": {
+      "title": "About me",
+      "description": [
+        "A multi-disciplined software engineer who enjoys working on Fullstack JavaScript technologies with over 9 years worth of industrial experience. I strongly believe that having a crosstechnology knowledge enables me to approach technical challenges much more productively and  creatively - rather than be limited by a single technology’s way of thinking.",
+        "My core experience includes Node JS, Angular (1 and 2), JavaScript (ES6), Ionic and React. Additionally, I have extensive knowledge working with MongoDB, PostgreSQL, Docker and AWS"
+      ]
     },
-    "profile": {
-        "title": "Profile",
-        "background_color": "#FFF",
-        "about": {
-            "title": "About me",
-            "description": ["A multi-disciplined software engineer who enjoys working on Fullstack JavaScript technologies with over 9 years worth of industrial experience. I strongly believe that having a crosstechnology knowledge enables me to approach technical challenges much more productively and  creatively - rather than be limited by a single technology’s way of thinking.",
-            "My core experience includes Node JS, Angular (1 and 2), JavaScript (ES6), Ionic and React. Additionally, I have extensive knowledge working with MongoDB, PostgreSQL, Docker and AWS"]
+    "bio": {
+      "title": "Bio",
+      "list": [
+        {
+          "label": "How cool?",
+          "value": "Very cool."
         },
-        "bio": {
-            "title": "Bio",
-            "list": [{
-                    "label": "How cool?",
-                    "value": "Very cool."
-                },
-                {
-                    "label": "Where",
-                    "value": "In the cloud..."
-                }
-            ]
+        {
+          "label": "Where",
+          "value": "In the cloud..."
         }
-    },
-    "experience": {
-        "title": "Experience",
-        "background_color": "#41564E",
-        "list": [{
-                "title": "Education",
-                "list": [{
-                    "location": "On my computer",
-                    "time": {
-                        "from": "2017",
-                        "to": "Present"
-                    },
-                    "title": "Building this",
-                    "description": "Quickly spun this up in a day for my own personal website"
-                }]
-            },
-            {
-                "title": "What else?",
-                "list": [{
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Some more stuff."
-                }, {
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Some more stuff."
-                },{
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Some more stuff."
-                },{
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero blanditiis nemo deserunt tempora quidem consectetur natus unde illum ullam, harum suscipit commodi quas consequuntur? Repudiandae officiis minus tempora autem?"
-                },{
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam temporibus repellat ipsum, fugit labore vel qui vitae quos ratione iusto quam inventore et soluta, in, eveniet repellendus? Enim, quisquam autem!"
-                },{
-                    "location": "Example",
-                    "time": {
-                        "from": "Apr 2011",
-                        "to": "Apr 2014"
-                    },
-                    "title": "Something else",
-                    "description": "Some more stuff."
-                }
-            ]
-            }
-        ]
-    },
-    "skills": {
-        "title": "Skills",
-        "background_color": "#FFF",
-        "list": [{
-            "label": "Javascript",
-            "value": 5
-        }, {
-            "label": "Node JS",
-            "value": 5
-        }, {
-            "label": "Angular",
-            "value": 5
-        }, {
-            "label": "Docker",
-            "value": 4
-        }]
-    },
-    "contact": {
-        "title": "Any other links?",
-        "background_color": "#5DC6DD",
-        "list": [{
-            "label": "Live Example",
-            "link": "http://thomaswood.me/",
-            "icon_class": "globe"
-        }, {
-            "label": "GitHub",
-            "link": "https://github.com/tomasswood/preact-homepage-generator",
-            "icon_class": "github"
-        }]
+      ]
     }
+  },
+  "experience": {
+    "title": "Experience",
+    "background_color": "#41564E",
+    "list": [
+      {
+        "title": "Education",
+        "list": [
+          {
+            "location": "On my computer",
+            "time": {
+              "from": "2017",
+              "to": "Present"
+            },
+            "title": "Building this",
+            "description":
+              "Quickly spun this up in a day for my own personal website"
+          }
+        ]
+      },
+      {
+        "title": "What else?",
+        "list": [
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2011",
+              "to": "Apr 2014"
+            },
+            "title": "Something else",
+            "description": "Some more stuff."
+          },
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2014"
+            },
+            "title": "Something else",
+            "description": "Some more stuff."
+          },
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2011",
+              "to": "Apr 2014"
+            },
+            "title": "Something else",
+            "description": "Some more stuff."
+          },
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2011",
+              "to": "Apr 2014"
+            },
+            "title": "Something else",
+            "description":
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero blanditiis nemo deserunt tempora quidem consectetur natus unde illum ullam, harum suscipit commodi quas consequuntur? Repudiandae officiis minus tempora autem?"
+          },
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2011",
+              "to": "Apr 2014"
+            },
+            "title": "Something else",
+            "description":
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam temporibus repellat ipsum, fugit labore vel qui vitae quos ratione iusto quam inventore et soluta, in, eveniet repellendus? Enim, quisquam autem!"
+          },
+          {
+            "location": "Example",
+            "time": {
+              "from": "Apr 2011",
+              "to": "Apr 2014"
+            },
+            "title": "Something else",
+            "description": "Some more stuff."
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "background_color": "#FFF",
+    "list": [
+      {
+        "label": "Javascript",
+        "value": 5
+      },
+      {
+        "label": "Node JS",
+        "value": 5
+      },
+      {
+        "label": "Angular",
+        "value": 5
+      },
+      {
+        "label": "Docker",
+        "value": 4
+      }
+    ]
+  },
+  "contact": {
+    "title": "Reach me at",
+    "background_color": "#607D8B",
+    "list": [
+      {
+        "label": "GitHub",
+        "link": "https://github.com/shaffi",
+        "icon_class": "github"
+      },
+      {
+        "label": "Twitter",
+        "link": "https://twitter.com/shaffiullah",
+        "icon_class": "twitter"
+      },
+      {
+        "label": "Linkedin",
+        "link": "https://www.linkedin.com/in/shaffiullah/",
+        "icon_class": "linkedin"
+      },
+      {
+        "label": "Email",
+        "link": "mailto:mailforshaffi@gmail.com",
+        "icon_class": "envelope"
+      }
+    ]
+  }
 }

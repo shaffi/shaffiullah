@@ -1,6 +1,7 @@
 import { h, Component } from 'preact';
 
 import FaIcon from '../icon';
+const cvtext ="Download My CV";
 
 class FooterItem extends Component {
 	render( { label, link, icon_class } ) {
@@ -22,6 +23,9 @@ export default class Footer extends Component {
 					</div>
 					<div class="divider" />
 					{props.list && props.list.map( item => <FooterItem {...item} /> )}
+					<div class="divider" />					
+					<a href="shaffiullahresume.pdf" class="button large"> {cvtext}</a>
+					
 				</div>
 			</footer>
 		);

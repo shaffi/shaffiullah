@@ -15,7 +15,7 @@ test( 'check if Header is modifying backgroundColor', () => {
 } );
 
 test( 'check if Header is modifying backgroundImage', () => {
-	const actual = shallow( <Header title="Test!" background_image="shaffidev.jpg" /> );
+	const actual = shallow( <Header title="Test!" background_image="shaffi11.jpg" /> );
 	expect( actual.find( '.header' ).attr( 'style' ).backgroundImage ).toBe( 'url(test-file-stub)' );
 } );
 
@@ -26,11 +26,11 @@ const backgroundImages = profile.header.background_images,
 	}, [] );
 
 test( 'check if we can generate a backgroundImage from a list', () => {
-	expect( chooseBackgroundImages( backgroundImages, imageModules, { viewport: 1600, ratio: 1 } ) ).toBe( 'shaffidev.jpg' );
+	expect( chooseBackgroundImages( backgroundImages, imageModules, { viewport: 1600, ratio: 1 } ) ).toBe( 'shaffi11.jpg' );
 } );
 
 test( 'check if we can generate a backgroundImage from a list when the browser screen is too large', () => {
-	expect( chooseBackgroundImages( backgroundImages, imageModules, { viewport: 3000, ratio: 2 } ) ).toBe( 'shaffidev-xlarge.jpg' );
+	expect( chooseBackgroundImages( backgroundImages, imageModules, { viewport: 3000, ratio: 2 } ) ).toBe( 'shaffi11-xlarge.jpg' );
 } );
 
 test( 'check if we can generate a viewport and ratio sizes', () => {

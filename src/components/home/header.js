@@ -29,6 +29,11 @@ const social = [
     link: 'https://www.linkedin.com/in/shaffiullah/',
     icon_class: 'linkedin'
   },
+  {
+    label: 'Email',
+    link: 'mailto:mailforshaffi@gmail.com',
+    icon_class: 'envelope'
+  },
 ];
 export const viewSize = () => {
   const viewport =
@@ -67,7 +72,6 @@ export const chooseBackgroundImages = (
 
   return headerImage;
 };
-
 const determineImage = (backgroundImage, backgroundImages) => {
   let headerImage;
   if (backgroundImages) {
@@ -111,12 +115,13 @@ export default class Header extends Component {
               {props.title}
             </h1>
             <h2 class="subtitle" itemprop="jobTitle">
-              {props.subtitle}
+			  {props.subtitle}
             </h2>
 		  </div>
 		  <div class="social">		
 		  {social && social.map( item => <FooterItem {...item} /> )}
 		  </div>
+		  
 		  </div>
       </header>
     );
