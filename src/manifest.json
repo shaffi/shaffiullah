@@ -1,11 +1,11 @@
 {
-  "name": "Preact Homepage Generator",
-  "short_name": "Preact Homepage Generator",
+  "name": "Shaffiullah - A full stack JavaScript developer",
+  "short_name": "Shaffiullah",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFF",
-  "theme_color": "#663AB7",
+  "theme_color": "#6c98ac",
   "icons": [{
     "src": "/assets/icons/android-chrome-192x192.png",
     "type": "image/png",
