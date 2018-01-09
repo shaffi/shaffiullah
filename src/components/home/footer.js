@@ -24,7 +24,7 @@ export default class Footer extends Component {
 					<div class="divider" />
 					{props.list && props.list.map( item => <FooterItem {...item} /> )}
 					<div class="divider" />					
-					<a href="shaffiullahresume.pdf" class="button large"> {cvtext}</a>
+					<a href="https://www.dropbox.com/s/qe48vd9mkcs9vvu/shaffiullahresume.pdf?dl=0" class="button large"> {cvtext}</a>
 					
 				</div>
 			</footer>
