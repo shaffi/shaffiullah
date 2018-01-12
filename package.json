@@ -30,7 +30,7 @@
     },
     "scripts": {
         "start": "if-env NODE_ENV=production && yarn run -s serve || yarn run -s dev",
-        "build": "preact build --template template.html",
+        "build": "preact build --clean --production --dest=dist --template template.html",
         "serve": "preact build && preact serve",
         "dev": "preact watch --template template.html",
         "lint": "eslint src",
