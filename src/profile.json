@@ -60,17 +60,17 @@
     "background_color": "#41564E",
     "list": [
       {
-        "title": "Education",
+        "title": "Principal Engineer",
         "list": [
           {
-            "location": "On my computer",
+            "location": "London, UK",
             "time": {
-              "from": "2017",
+              "from": "2013",
               "to": "Present"
             },
-            "title": "Building this",
+            "title": "Causeway technologies",
             "description":
-              "Quickly spun this up in a day for my own personal website"
+              "Working as a full stack developer in R&D team, developing web and mobile application with modern web technologies. Leading projects to create Authenticated, Cacheable, RESTful, Rate-Limited API Gateways used across all products "
           }
         ]
       },

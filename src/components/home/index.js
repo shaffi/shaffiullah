@@ -13,6 +13,8 @@ export default class Home extends Component {
 	};
 
 	componentDidMount() {
+		//				{profile.experience && <Experience {...profile.experience} />}
+
 		fetch( '/profile.json' ).then( response => response.json() ).then( profile => this.setState( { profile } ) );
 	}
 
