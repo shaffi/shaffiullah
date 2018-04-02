@@ -105,8 +105,7 @@ export default class Header extends Component {
       <header
         class="header"
         style={{
-          backgroundColor: props.background_color || null,
-          backgroundImage: background_image
+          backgroundColor: props.background_color || null
         }}
       >
         <div class="header-wrapper">
