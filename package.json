@@ -2,7 +2,6 @@
     "name": "shaffiullahin",
     "version": "1.0.1",
     "main": "index.js",
-
     "jest": {
         "verbose": true,
         "collectCoverage": true,
