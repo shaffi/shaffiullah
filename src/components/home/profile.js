@@ -16,6 +16,10 @@ export default class Profile extends Component {
 		if (props.about.description.length) {
 			descriptions = props.about.description.map(desc => <p>{desc}</p> );
 		}
+		let techdescriptions;
+		if (props.summary.description.length) {
+			techdescriptions = props.summary.description.map(desc => <li>{desc}</li> );
+		}
 		return (
 			<main class="main profile" style={{ backgroundColor: props.background_color || null }}>
 				<div class="main-wrapper">
@@ -27,7 +31,13 @@ export default class Profile extends Component {
 						{props.about && <h5>{props.about.title}</h5>}
 						{ descriptions }
 					</div>
-
+					<div class="divider" />
+					<div class="summary tech-summary">
+					{props.summary && <h5>{props.summary.title}</h5>}
+					<ul>
+					{ techdescriptions }
+					</ul>
+				</div>
 				</div>
 			</main>
 		);

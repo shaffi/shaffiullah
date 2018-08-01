@@ -37,8 +37,15 @@
     "about": {
       "title": "About me",
       "description": [
-        "A multi-disciplined software engineer who enjoys working on Fullstack JavaScript technologies with over 9 years worth of industrial experience. I strongly believe that having a crosstechnology knowledge enables me to approach technical challenges much more productively and  creatively - rather than be limited by a single technology’s way of thinking.",
-        "My core experience includes Node JS, Angular (1 and 2), JavaScript (ES6), Ionic and React. Additionally, I have extensive knowledge working with MongoDB, PostgreSQL, Docker and AWS"
+        "A multi-disciplined software engineer who enjoys working on Fullstack modern web technologies with over 9 years worth of industrial experience. I strongly believe that having a crosstechnology knowledge enables me to approach technical challenges much more productively and creatively - rather than be limited by a single technology’s way of thinking.",
+        "My core experience includes Node JS, Angular (1 and 2), JavaScript (ES6), Ionic and React. Additionally, I have extensive knowledge working with MongoDB, PostgreSQL, Docker, Kubernetes."
+      ]
+    },
+    "summary": {
+      "title": "technical Sumary",
+      "description": [
+        "A multi-disciplined software engineer who enjoys working on Fullstack modern web technologies with over 9 years worth of industrial experience. I strongly believe that having a crosstechnology knowledge enables me to approach technical challenges much more productively and creatively - rather than be limited by a single technology’s way of thinking.",
+        "My core experience includes Node JS, Angular (1 and 2), JavaScript (ES6), Ionic and React. Additionally, I have extensive knowledge working with MongoDB, PostgreSQL, Docker, Kubernetes."
       ]
     },
     "bio": {
