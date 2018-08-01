@@ -7,27 +7,27 @@
     "background_images": [
       {
         "width": 2560,
-        "filename": "shaffi11-xlarge.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       },
       {
         "width": 1920,
-        "filename": "shaffi11.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       },
       {
         "width": 1600,
-        "filename": "shaffi11-large.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       },
       {
         "width": 1280,
-        "filename": "shaffi11-medium.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       },
       {
         "width": 960,
-        "filename": "shaffi11-small.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       },
       {
         "width": 480,
-        "filename": "shaffidev-xsmall.jpg"
+        "filename": "https://res.cloudinary.com/shaffiullah-in/image/upload/v1522672289/c_imagga_crop/shaffi11.jpg"
       }
     ]
   },

@@ -94,10 +94,8 @@ export default class Header extends Component {
   constructor(props) {
     super();
 
-    this.state.background_image =
-      props.background_image || props.background_images
-        ? determineImage(props.background_image, props.background_images)
-        : null;
+    this.state.background_image = 'http://res.cloudinary.com/shaffiullah-in/image/upload/s--MHfAhwog--/c_imagga_crop/v1522672289/shaffi11.jpg'
+
   }
 
   render(props, { background_image }) {
